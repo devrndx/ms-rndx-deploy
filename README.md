@@ -1,1 +1,1 @@
-# ms-srt-deploy
+# ms-rndx-deploy
