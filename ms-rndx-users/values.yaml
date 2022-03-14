@@ -11,8 +11,8 @@ image:
   tag: "sha-5848e9e"
 
 MYSQL_HOST: rds.staging.msur-vpc.com
-MYSQL_USER: srt_client
-MYSQL_DATABASE: srt_client_db
+MYSQL_USER: rndx_client
+MYSQL_DATABASE: rndx_client_db
 MYSQLSecretName: mysql
 MYSQLSecretKey: password
 
