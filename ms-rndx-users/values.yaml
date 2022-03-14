@@ -51,14 +51,13 @@ ingress:
   enabled: true
   annotations: 
     kubernetes.io/ingress.class: traefik
-    ingress.kubernetes.io/ssl-redirect: "true"
   hosts:
     - host: app.rndx-wallet.io
       paths: ["/users"]
-  tls:  
-    - secretName: chart-rndx-walle-tls
-      hosts:
-       - rndx-wallet.io
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
 
 autoscaling:
   enabled: false
