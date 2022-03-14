@@ -47,7 +47,7 @@ spec:
               value: {{ .Values.MYSQL_DATABASE | quote }}
           ports:
             - name: http
-              containerPort: 5502
+              containerPort: 5501
               protocol: TCP
           livenessProbe:
             httpGet:
