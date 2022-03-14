@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: devrndx/ms-rndx-wallet
+  repository: devrndx/ms-rndx-users
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.0.2"
@@ -48,7 +48,6 @@ service:
 
 ingress:
   enabled: true
-  className: ""
   annotations: 
     kubernetes.io/ingress.class: traefik
   hosts:

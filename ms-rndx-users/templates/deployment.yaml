@@ -47,7 +47,7 @@ spec:
               value: {{ .Values.MYSQL_DATABASE | quote }}
           ports:
             - name: http
-              containerPort: 5501
+              containerPort: 5502
               protocol: TCP
           livenessProbe:
             httpGet:
@@ -58,7 +58,7 @@ spec:
               path: /ping
               port: http
           resources:
-            {{- toYaml .Values.resources | nindent 12 }}
+            {{- toYaml .Values.resources | nindent 12 }}          
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
