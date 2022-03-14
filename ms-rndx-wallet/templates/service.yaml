@@ -11,10 +11,6 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
-    - port: 443
-      targetPort: https
-      protocol: TCP
-      name: https
 
   selector:
     {{- include "ms-rndx-wallet.selectorLabels" . | nindent 4 }}

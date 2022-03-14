@@ -49,9 +49,6 @@ spec:
             - name: http
               containerPort: 5501
               protocol: TCP
-            - name: https
-              containerPort: 5501
-              protocol: TCP
           livenessProbe:
             httpGet:
               path: /
