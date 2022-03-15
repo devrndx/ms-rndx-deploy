@@ -8,7 +8,7 @@ image:
   repository: devrndx/ms-rndx-users
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.0.19"
+  tag: "v0.0.20"
 
 
 MYSQL_HOST: rds.staging-rndx.msur-vpc.com
