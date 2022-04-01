@@ -17,6 +17,13 @@ MYSQL_DATABASE: rndx_client_db
 MYSQLSecretName: mysql
 MYSQLSecretKey: password
 
+JWTSecretName: jwtkey
+JWTSecrectKey: jwtkeyvalue
+COOKIESecretName: cookiekey
+COOKIESecretKey: cookiekeyvalue
+
+NodeEnvValue: dev
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""

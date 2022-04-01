@@ -17,6 +17,12 @@ MYSQL_DATABASE: rndx_client_db
 MYSQLSecretName: mysql
 MYSQLSecretKey: password
 
+KAS_AccessKeyName : kaskey
+KAS_AccessKey : kaskeyvluae
+
+KAS_AccessSecrectKeyName : kaskeysecret
+KAS_AccessSecrectKey : kaskeyvaluesecret
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
