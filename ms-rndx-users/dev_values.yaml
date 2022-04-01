@@ -59,7 +59,7 @@ ingress:
   annotations: 
     kubernetes.io/ingress.class: traefik
   hosts:
-    - host: app.rndx-wallet.io
+    - host: app.dev.rndx-wallet.io
       paths: ["/users"]
   tls: []
   #  - secretName: chart-example-tls
