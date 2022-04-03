@@ -8,7 +8,7 @@ image:
   repository: devrndx/ms-rndx-wallet
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha-aef780f"
+  tag: "sha-9e40ac9"
 
 
 MYSQL_HOST: rds.sandbox.rndx-sandbox-vpc.com
@@ -22,6 +22,8 @@ KAS_AccessKey : kaskeyvluae
 
 KAS_AccessSecrectKeyName : kaskeysecret
 KAS_AccessSecrectKey : kaskeyvaluesecret
+
+NodeEnvValue: dev
 
 imagePullSecrets: []
 nameOverride: ""
