@@ -48,7 +48,7 @@ spec:
             - name: NODE_ENV
               value: {{ .Values.NodeEnvValue | quote }}
             - name: DEBUG
-              value: {{ .Values.NodeEnvValue | quote }}
+              value: {{ .Values.DebugValue | quote }}
           ports:
             - name: http
               containerPort: 5005
