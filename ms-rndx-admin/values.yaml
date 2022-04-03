@@ -15,6 +15,9 @@ MYSQL_USER: rndx_client
 MYSQL_DATABASE: rndx_client_db
 MYSQLSecretName: mysql
 MYSQLSecretKey: password
+
+NodeEnvValue: production
+DebugValue: false
               
 imagePullSecrets: []
 nameOverride: ""
