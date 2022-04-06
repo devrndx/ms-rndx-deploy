@@ -8,7 +8,7 @@ image:
   repository: devrndx/ms-rndx-admin
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha-222ed2a"
+  tag: "sha-a4031e1"
 
 MYSQL_HOST: rds.sandbox.rndx-sandbox-vpc.com
 MYSQL_USER: rndx_client
