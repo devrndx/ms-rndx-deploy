@@ -8,7 +8,7 @@ image:
   repository: devrndx/ms-rndx-users
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha-57941ce"
+  tag: "sha-c7a61b5"
 
 
 MYSQL_HOST: rds.sandbox.rndx-sandbox-vpc.com
@@ -21,12 +21,6 @@ JWTSecretName: jwtkey
 JWTSecrectKey: jwtkeyvalue
 COOKIESecretName: cookiekey
 COOKIESecretKey: cookiekeyvalue
-
-OWNER_PRIV_KeyName : ownerkeysecret
-OWNER_PRIV_Key : ownerkeysecretvalue
-
-FEE_DELEGATE_PRIVE_KeyName : feepayerkeysecret
-FEE_DELEGATE_PRIVE_Key : feepayerkeysecretvalue
 
 NodeEnvValue: dev
 
