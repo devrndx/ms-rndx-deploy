@@ -8,7 +8,7 @@ image:
   repository: devrndx/ms-rndx-wallet-client
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha-264a619"
+  tag: "sha-669993a"
 
 
 MYSQL_HOST: rds.sandbox.rndx-sandbox-vpc.com
@@ -16,6 +16,9 @@ MYSQL_USER: rndx_client
 MYSQL_DATABASE: rndx_client_db
 MYSQLSecretName: mysql
 MYSQLSecretKey: password
+
+FirebaseSecretName: firebasesecrectkey
+FirebaseSecretKey: firebasesecrectvalue
 
 imagePullSecrets: []
 nameOverride: ""
