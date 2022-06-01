@@ -22,6 +22,9 @@ JWTSecrectKey: jwtkeyvalue
 COOKIESecretName: cookiekey
 COOKIESecretKey: cookiekeyvalue
 
+AdminSecretName: adminsecretkey
+AdminSecretKey : adminsecretkeyvalue
+
 NodeEnvValue: production
 
 imagePullSecrets: []
