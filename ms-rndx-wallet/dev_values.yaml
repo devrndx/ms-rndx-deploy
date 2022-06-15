@@ -8,7 +8,7 @@ image:
   repository: devrndx/ms-rndx-wallet
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha-fc5c5e1"
+  tag: "sha-70f560a"
 
 
 MYSQL_HOST: rds.sandbox.rndx-sandbox-vpc.com
