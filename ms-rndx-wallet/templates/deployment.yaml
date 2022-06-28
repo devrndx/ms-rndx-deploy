@@ -72,6 +72,12 @@ spec:
 
             - name: NODE_ENV
               value: {{ .Values.NodeEnvValue | quote }}
+
+            - name : ADMINPW
+              valueFrom:
+                secretKeyRef: 
+                  name: {{ .Values.ADMINPWName | quote }}
+                  key: {{ .Values.ADMINPWValue | quote }}
           ports:
             - name: http
               containerPort: 5502
